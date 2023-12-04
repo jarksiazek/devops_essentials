@@ -44,7 +44,9 @@ ufw delete 5 #order is taken from "ufw status"
 <p>
   
 ```bash
-systemctl status apparmor # check if apparmor is already installed 
+systemctl status apparmor # check if apparmor is already installed
+cat /sys/module/apparmor/parameters/enabled # check if apparmor module is enabled
+cat /sys/kernel/security/apparmor/profiles # get list of loaded profiles
 aa-status # summary of all loaded profiles
 
 ```
