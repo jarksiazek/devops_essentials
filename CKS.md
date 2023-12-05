@@ -1,4 +1,5 @@
 ### CKS
+* read-only secret as volume 
 <details><summary>UFW</summary>
 <br>
 <p>List of Open Ports</p>
