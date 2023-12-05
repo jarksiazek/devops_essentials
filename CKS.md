@@ -69,7 +69,7 @@ profile k8s-deny-write flags=(attach_disconnected) { #k8s-deny-write - name of t
 </p>
 
 ```bash
-sudo apparmor_parser /etc/apparmor.d/k8s-deny-write # load the profile into AppArmor
+sudo apparmor_parser -q /etc/apparmor.d/k8s-deny-write # load the profile into AppArmor
 sudo aa-status
   
 }
