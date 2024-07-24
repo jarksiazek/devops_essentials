@@ -53,6 +53,14 @@
   * any microserivce that provides a service consumed by another party should use a Cluster IP
   * no network interfaces associated with the Cluster IP
   * totally virtual and implemented using iptables
+* Service/Cluster IP Range
+  * The subnet reserved to allocate Cluster IPs in a cluster for various Services
+  * the size of the subnet depends on how many services are planned to be hosted in the cluster
+  * can be much smaller than pod subnet
+* kube-dns
+  * provides Service Discovery
+  * DNS pods are exposed to other pods in the cluster using DNS Service's a Cluster IP
+  * The scale of the Deployment depends on the actual custer size/load  
 
 for learnig
 - IPTABLE
