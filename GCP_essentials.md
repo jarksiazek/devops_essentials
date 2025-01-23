@@ -24,6 +24,7 @@ gcloud auth activate-service-account "emed-step-admin-serviceaccount@emed-step-a
 
 <details><summary>compute resources</summary>
 <p>
+![image](https://github.com/user-attachments/assets/b207756c-c75c-46ab-b26d-ad6438dd4ef3)
 
 
 - Compute engine
