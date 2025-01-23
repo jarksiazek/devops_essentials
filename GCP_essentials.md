@@ -21,3 +21,26 @@ gcloud auth activate-service-account "emed-step-admin-serviceaccount@emed-step-a
 ```
 </p>
 </details>
+
+<details><summary>compute resources</summary>
+<p>
+
+
+- Compute engine
+  - IAAS Solution
+  - Linux and Windows
+  - Custom machine (RAM, CPU, Hard Drive)
+- GKE 
+- App Engine (GAE)
+  - PAAS Solution - fully managed service
+  - deploy web app at high scale
+- Cloud Run
+  - PAAS Solution - fully managed service
+  - containered applications
+  - Best of (GEA + container)
+  - Next generation of GAE
+- Cloud Functions
+  - Serverless
+  - something like AWS lambda 
+</p>
+</details>
